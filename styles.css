@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "press start 2p, sans-serif";
+  color: #eee;
+  background-color: #222;
+  /* background-color:#60b347 */
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  position: relative;
+  height: 65vh;    
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  position: absolute;
+  width: 52rem;
+  display: flex;
+  justify-content: left;
+}
+
+.guess{
+    padding: 10px 0px;
+
+  }
+.btn{
+    padding: 10px 5px;
+    position: absolute;
+    top: 45px;
+    border-radius: 0%;
+    border: none;
+}
+.right {  
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+.right, .message, .label-score, .label-highscore{
+  right:20%;
+  margin: 10px 0px;
+  font-size: 15px;
+}
+.number{
+  position: absolute;
+  display: block;
+  border: 2px solid white;
+  width: 9%;
+  font-weight:bolder;
+  font-size: 20px;
+  text-align: center;
+  left: 50%;
+  top: 95%;
+  color: #222;
+  background-color: #eee;
+}
+
+.btn-again{
+  top: 0%;
+  width: 20%;
+
+}
+.between{
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+header h1{
+  position: absolute;
+  bottom:20%;
+  left: 35%;
+  font-size: 30px;
+}
+
+
